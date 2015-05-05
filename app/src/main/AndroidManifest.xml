@@ -25,6 +25,7 @@
                 android:name="com.google.android.glass.VoiceTrigger"
                 android:resource="@xml/voice_trigger" />
         </activity>
+        <service android:name="net.majorkernelpanic.streaming.rtsp.RtspServer"/>
     </application>
 
 </manifest>
